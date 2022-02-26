@@ -28,7 +28,7 @@ export default function AddTodo({insertTodo}) {
                 </div>
                 <div className="mb-3">
                     <label className="form-label">Описание</label>
-                    <textarea name="txtAddress1Billing" value={formData.body} onChange={e => onChange(e.target.name, e.target.value)} name="body" rows="4" className="form-control" placeholder="Например: Купить продукты"></textarea>
+                    <textarea value={formData.body} onChange={e => onChange(e.target.name, e.target.value)} name="body" rows="4" className="form-control" placeholder="Например: Купить продукты"></textarea>
                 </div>
                 <div className="mb-4">
                     <label className="form-label">Префикс</label>
